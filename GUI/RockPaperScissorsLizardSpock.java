@@ -202,6 +202,7 @@ public class RockPaperScissorsLizardSpock extends Frame {
     int randomNum = rn.nextInt((5 - 1) + 1) + 1;
     return randomNum;
 } 
+
  
   public static void main(String[] args) {
          new RockPaperScissorsLizardSpock();
